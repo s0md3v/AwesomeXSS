@@ -105,7 +105,7 @@ video
 If nothing of this works, take a look at **Awesome Bypassing** section
 
 First of all, enter a non-malicious string like **d3v** and look at the source code to get an idea about number and contexts of refelections.
-<br>Now for attribute context, check if double quotes (") are being filtered by entering **x"d3v**. If it gets altered to **x&quot;d3v**, chances are that proper security measures are in place. If this happens, try doing the same for single quotes (') by entering **x'd3v**, if it gets altered to **x&apos;**, you are doomed. The only thing you can try is encoding.<br>
+<br>Now for attribute context, check if double quotes (") are being filtered by entering **x"d3v**. If it gets altered to **x&amp;quot;d3v**, chances are that proper security measures are in place. If this happens, try doing the same for single quotes (') by entering **x'd3v**, if it gets altered to **x&amp;apos;**, you are doomed. The only thing you can try is encoding.<br>
 If the quotes are not being filtered, you can simply try payloads from **Awesome Context Breaking** section.
 <br>For javascript context, check which quotes are being used for example if they are doing
 ```
@@ -119,7 +119,7 @@ But if it gets altered to **x\\'d3v**, the only thing you can try is closing the
 ```
 </script><svg onload=alert()>
 ```
-For simple HTML context, the probe is **x&gt;d3v**. If it gets altered to **x&gt;d3v**, proper sanitization is in place. If it gets reflected as it as, you can enter a dummy tag to check for potenial filters. The dummy tag I like to use is **x&lt;xxx&gt;**. If it gets stripped or altered in any way, it means the filter is looking for a pair of **<** and **>**. It can simply bypassed using
+For simple HTML context, the probe is **x&gt;d3v**. If it gets altered to **x&amp;gt;d3v**, proper sanitization is in place. If it gets reflected as it as, you can enter a dummy tag to check for potenial filters. The dummy tag I like to use is **x&lt;xxx&gt;**. If it gets stripped or altered in any way, it means the filter is looking for a pair of **<** and **>**. It can simply bypassed using
 ```
 <svg onload=alert()//
 ```
