@@ -20,6 +20,7 @@ Put this repo on watch. I will be updating it regularly.
 
 ### Awesome Reads & Presentations
 - [XSS in Sarahah](http://www.shawarkhan.com/2017/08/sarahah-xss-exploitation-tool.html)
+- [Bypass Any WAF for XSS](https://teamultimate.in/bypass-waf-xss-easily/)
 - [XSS in Facebook via PNG Content Type](https://whitton.io/articles/xss-on-facebook-via-png-content-types/)
 - [How I met your girlfriend](https://www.youtube.com/watch?v=fWk_rMQiDGc)
 - [How to Find 1,352 Wordpress XSS Plugin Vulnerabilities in one hour](https://www.youtube.com/watch?v=9ADubsByGos)
