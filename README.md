@@ -19,10 +19,10 @@ Put this repo on watch. I will be updating it regularly.
 - [Somdev Sangwan](https://twitter.com/s0md3v) because I made this repo :3
 
 ### Awesome Reads & Presentations
-- [How I met your girlfriend](https://www.youtube.com/watch?v=fWk_rMQiDGc)
-- [How to Find 1,352 Wordpress XSS Plugin Vulnerabilities in one hour](https://www.youtube.com/watch?v=9ADubsByGos)
 - [XSS in Sarahah](http://www.shawarkhan.com/2017/08/sarahah-xss-exploitation-tool.html)
 - [XSS in Facebook via PNG Content Type](https://whitton.io/articles/xss-on-facebook-via-png-content-types/)
+- [How I met your girlfriend](https://www.youtube.com/watch?v=fWk_rMQiDGc)
+- [How to Find 1,352 Wordpress XSS Plugin Vulnerabilities in one hour](https://www.youtube.com/watch?v=9ADubsByGos)
 - [Blind XSS](https://www.youtube.com/watch?v=OT0fJEtz7aE)
 - [Copy Pest](https://www.slideshare.net/x00mario/copypest)
 
@@ -181,6 +181,9 @@ If the your dummy tags lands in the source code as it is, go for any of these pa
 ```
 <x onclick=confirm()>click here
 ```
+
+### Awesome Encoding
+Come back later
 
 ### Awesome Tips & Tricks
 - http(s):// can be shortened to // or /\.
