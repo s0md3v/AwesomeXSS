@@ -3,7 +3,7 @@ Awesome XSS stuff.
 Put this repo on watch. I will be updating it regularly.
 
 ### Awesome Books
-- [XSS Cheat Sheet By Brute Logic](http://google.com)
+- [XSS Cheat Sheet By Brute Logic](https://leanpub.com/xss)
 
 ### Awesome Websites
 - [brutelogic.com.br](http://brutelogic.com.br)
