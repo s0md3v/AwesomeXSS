@@ -106,6 +106,7 @@ Yep, confirm because alert is too mainstream.
 confirm()
 confirm``
 (((confirm)))``
+co\u006efirm()
 new class extends confirm``{}
 ```
 
@@ -187,7 +188,7 @@ If the your dummy tags lands in the source code as it is, go for any of these pa
 Come back later
 
 ### Awesome Tips & Tricks
-- http(s):// can be shortened to // or /\.
+- http(s):// can be shortened to // or /\\.
 - **document.cookie** can be shortened to **cookie**. It applies to other DOM objects as well.
 - alert and other pop-up functions don't need a value, so stop doing **alert('XSS')** and start doing **alert()**
 - You can use **//** to close a tag instead of **>**.
