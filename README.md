@@ -91,6 +91,7 @@ video
 "><svg onload=alert()><b attr="
 " onmouseover=alert() "
 "onmouseover=alert()//
+"autocous/onfocus="alert()
 ```
 #### JavaScript Context
 ```
