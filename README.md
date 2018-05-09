@@ -28,7 +28,7 @@ Put this repo on watch. I will be updating it regularly.
 - [Copy Pest](https://www.slideshare.net/x00mario/copypest)
 
 ### Awesome Tools
-- [XSStrike](http://xsstrike.tk/)
+- [XSStrike](https://github.com/UltimateHackers/XSStrike)
 - [KNOXSS](http://knoxss.me/)
 - [BeEF](https://github.com/beefproject/beef)
 - [JShell](https://github.com/UltimateHackers/JShell)
