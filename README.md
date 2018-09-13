@@ -149,7 +149,7 @@ variable = 'value' or variable = "value"
 ```
 Now lets say single quotes (') are in use, in that case enter **x'd3v**. If it gets altered to **x\\'d3v**, try escaping the backslash (\) by adding a backslash to your probe i.e. **x\\'d3v**. If it works use the following payload:
 ```
-\'-alert()-\'
+\'-alert()//
 ```
 But if it gets altered to **x\\'d3v**, the only thing you can try is closing the script tag itself by using
 ```
