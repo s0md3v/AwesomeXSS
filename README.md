@@ -26,6 +26,7 @@ Put this repo on watch. I will be updating it regularly.
 - [How to Find 1,352 Wordpress XSS Plugin Vulnerabilities in one hour](https://www.youtube.com/watch?v=9ADubsByGos)
 - [Blind XSS](https://www.youtube.com/watch?v=OT0fJEtz7aE)
 - [Copy Pest](https://www.slideshare.net/x00mario/copypest)
+- [Types of XSS, Detection, Exploitation and Mitigation](https://www.youtube.com/watch?v=HGaFCcWM57U)
 
 ### Awesome Tools
 - [XSStrike](https://github.com/UltimateHackers/XSStrike)
