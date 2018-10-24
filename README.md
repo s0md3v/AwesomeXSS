@@ -157,7 +157,7 @@ Now lets say single quotes (') are in use, in that case enter **x'd3v**. If it g
 ```
 \'-alert()//
 ```
-But if it gets altered to **x\\'d3v**, the only thing you can try is closing the script tag itself by using
+But if it gets altered to **x\\\\'d3v**, the only thing you can try is closing the script tag itself by using
 ```
 </script><svg onload=alert()>
 ```
