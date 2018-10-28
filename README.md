@@ -14,7 +14,6 @@ Put this repo on watch. I will be updating it regularly.
 - [prompt(1) to win](http://prompt.ml/)
 
 ### Awesome People
-- [Rodolfo Assis](https://twitter.com/brutelogic)
 - [Ashar Javed](https://twitter.com/soaj1664ashar)
 - [Somdev Sangwan](https://twitter.com/s0md3v) because I made this repo :3
 
@@ -29,7 +28,6 @@ Put this repo on watch. I will be updating it regularly.
 
 ### Awesome Tools
 - [XSStrike](https://github.com/UltimateHackers/XSStrike)
-- [KNOXSS](http://knoxss.me/)
 - [BeEF](https://github.com/beefproject/beef)
 - [JShell](https://github.com/UltimateHackers/JShell)
 
@@ -267,4 +265,3 @@ Come back later
 
 ### Awesome Credits
 All the payloads are crafted by me unless specified.
-Thanks to my big brother [Rodolfo Assis](https://twitter.com/rodoassis) whose writings inspired me to become an XSSLord.
