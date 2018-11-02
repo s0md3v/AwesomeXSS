@@ -2,9 +2,6 @@
 Awesome XSS stuff.
 Put this repo on watch. I will be updating it regularly.
 
-### Awesome Books
-- [XSS Cheat Sheet By Brute Logic](https://leanpub.com/xss)
-
 ### Awesome Websites
 - [brutelogic.com.br](http://brutelogic.com.br)
 - [respectxss.blogspot.in](https://respectxss.blogspot.in/)
@@ -14,7 +11,6 @@ Put this repo on watch. I will be updating it regularly.
 - [prompt(1) to win](http://prompt.ml/)
 
 ### Awesome People
-- [Ashar Javed](https://twitter.com/soaj1664ashar)
 - [Somdev Sangwan](https://twitter.com/s0md3v) because I made this repo :3
 
 ### Awesome Reads & Presentations
