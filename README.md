@@ -2,10 +2,6 @@
 Awesome XSS stuff.
 Put this repo on watch. I will be updating it regularly.
 
-### Awesome Websites
-- [brutelogic.com.br](http://brutelogic.com.br)
-- [respectxss.blogspot.in](https://respectxss.blogspot.in/)
-
 ### Awesome Challenges
 - [Google's XSS Challenge](https://xss-game.appspot.com/)
 - [prompt(1) to win](http://prompt.ml/)
@@ -24,6 +20,7 @@ Put this repo on watch. I will be updating it regularly.
 
 ### Awesome Tools
 - [XSStrike](https://github.com/UltimateHackers/XSStrike)
+- [xsshunter.com](https://xsshunter.com)
 - [BeEF](https://github.com/beefproject/beef)
 - [JShell](https://github.com/UltimateHackers/JShell)
 
