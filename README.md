@@ -3,11 +3,16 @@ Awesome XSS stuff.
 Put this repo on watch. I will be updating it regularly.
 
 ### Awesome Challenges
-- [Google's XSS Challenge](https://xss-game.appspot.com/)
-- [prompt(1) to win](http://prompt.ml/)
-
-### Awesome People
-- [Somdev Sangwan](https://twitter.com/s0md3v) because I made this repo :3
+- [prompt.ml](https://prompt.ml)
+- [alf.nu/alert1](https://alf.nu/alert1)
+- [s-p-o-o-k-y.com](https://www.s-p-o-o-k-y.com)
+- [xss-game.appspot.com](https://xss-game.appspot.com)
+- [polyglot.innerht.ml](https://polyglot.innerht.ml)
+- [sudo.co.il/xss](http://sudo.co.il/xss)
+- [hack.me/t/XSS](https://hack.me/t/XSS)
+- [root-me.org](https://www.root-me.org/?page=recherche&lang=en&recherche=xss)
+- [chefsecure.com](https://chefsecure.com/courses/xss/challenges)
+- [wechall.net](https://www.wechall.net/challs/XSS)
 
 ### Awesome Reads & Presentations
 - [Bypassing XSS Detection Mechanisms](https://github.com/s0md3v/MyPapers/tree/master/Bypassing-XSS-detection-mechanisms)
