@@ -185,6 +185,9 @@ Yep, confirm because alert is too mainstream.
 ```
 confirm()
 confirm``
+(confirm``)
+{confirm``}
+[confirm``]
 (((confirm)))``
 co\u006efirm()
 new class extends confirm``{}
