@@ -1,6 +1,25 @@
 # AwesomeXSS
-Awesome XSS stuff.
-Put this repo on watch. I will be updating it regularly.
+This repository is a collection of Awesome XSS resources. Contributions are welcome and should be submitted via an issue.
+
+### Awesome contents
+- [Challenges](https://github.com/s0md3v/AwesomeXSS#awesome-challenges)
+- [Reads & Presentations](https://github.com/s0md3v/AwesomeXSS#awesome-reads--presentations)
+- [Tools](https://github.com/s0md3v/AwesomeXSS#awesome-tools)
+- [Mind maps](https://github.com/s0md3v/AwesomeXSS#awesome-xss-mind-maps)
+- [DOM XSS](https://github.com/s0md3v/AwesomeXSS#awesome-dom-xss)
+- [Payloads](https://github.com/s0md3v/AwesomeXSS#awesome-payloads)
+- [Polyglots](https://github.com/s0md3v/AwesomeXSS#awesome-polyglots)
+- [Tags and event handlers](https://github.com/s0md3v/AwesomeXSS#awesome-tags--event-handlers)
+- [Context breaking](https://github.com/s0md3v/AwesomeXSS#awesome-context-breaking)
+    - [HTML context](https://github.com/s0md3v/AwesomeXSS#html-context)
+    - [Attribute context](https://github.com/s0md3v/AwesomeXSS#attribute-context)
+    - [JavaScript context](https://github.com/s0md3v/AwesomeXSS#javascript-context)
+- [Confirm Variants](https://github.com/s0md3v/AwesomeXSS#awesome-confirm-variants)
+- [Exploits](https://github.com/s0md3v/AwesomeXSS#awesome-exploits)
+- [Probing](https://github.com/s0md3v/AwesomeXSS#awesome-probing)
+- [Bypassing](https://github.com/s0md3v/AwesomeXSS#awesome-bypassing)
+- [Encoding](https://github.com/s0md3v/AwesomeXSS#awesome-encoding)
+- [Tips & tricks](https://github.com/s0md3v/AwesomeXSS#awesome-tips--tricks)
 
 ### Awesome Challenges
 - [prompt.ml](https://prompt.ml)
