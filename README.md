@@ -49,7 +49,7 @@ This repository is a collection of Awesome XSS resources. Contributions are welc
 - [JShell](https://github.com/UltimateHackers/JShell)
 
 ### Awesome XSS Mind Maps
-A beutiful XSS mind map by Jack Masa, [here](https://github.com/s0md3v/AwesomeXSS/blob/master/Database/jackmasa-mind-map.png)
+A beautiful XSS mind map by Jack Masa, [here](https://github.com/s0md3v/AwesomeXSS/blob/master/Database/jackmasa-mind-map.png)
 
 ### Awesome DOM XSS
 
@@ -234,7 +234,7 @@ A good compilation of advanced XSS exploits can be found [here](http://www.xss-p
 ### Awesome Probing
 If nothing of this works, take a look at **Awesome Bypassing** section
 
-First of all, enter a non-malicious string like **d3v** and look at the source code to get an idea about number and contexts of refelections.
+First of all, enter a non-malicious string like **d3v** and look at the source code to get an idea about number and contexts of reflections.
 <br>Now for attribute context, check if double quotes (") are being filtered by entering `x"d3v`. If it gets altered to `x&quot;d3v`, chances are that output is getting properly escaped. If this happens, try doing the same for single quotes (') by entering `x'd3v`, if it gets altered to `x&apos;`, you are doomed. The only thing you can try is encoding.<br>
 If the quotes are not being filtered, you can simply try payloads from **Awesome Context Breaking** section.
 <br>For javascript context, check which quotes are being used for example if they are doing
@@ -249,7 +249,7 @@ But if it gets altered to `x\\\\'d3v`, the only thing you can try is closing the
 ```
 </script><svg onload=alert()>
 ```
-For simple HTML context, the probe is `x<d3v`. If it gets altered to `x&gt;d3v`, proper sanitization is in place. If it gets reflected as it as, you can enter a dummy tag to check for potenial filters. The dummy tag I like to use is `x<xxx>`. If it gets stripped or altered in any way, it means the filter is looking for a pair of `<` and `>`. It can simply bypassed using
+For simple HTML context, the probe is `x<d3v`. If it gets altered to `x&gt;d3v`, proper sanitization is in place. If it gets reflected as it as, you can enter a dummy tag to check for potential filters. The dummy tag I like to use is `x<xxx>`. If it gets stripped or altered in any way, it means the filter is looking for a pair of `<` and `>`. It can simply bypassed using
 ```
 <svg onload=alert()//
 ```
@@ -305,7 +305,7 @@ If the your dummy tags lands in the source code as it is, go for any of these pa
 <x ondrag=aconfirm()>drag it
 ```
 
-- Bypass tag blackilisting
+- Bypass tag blacklisting
 ```
 </ScRipT>
 </script
@@ -354,7 +354,7 @@ If the your dummy tags lands in the source code as it is, go for any of these pa
 - alert and other pop-up functions don't need a value, so stop doing `alert('XSS')` and start doing `alert()`
 - You can use `//` to close a tag instead of `>`.
 - I have found that `confirm` is the least detected pop-up function so stop using `alert`.
-- Quotes around attribute value aren't neccessary as long as it doesn't contain spaces. You can use `<script src=//14.rs>` instead of `<script src="//14.rs">`
+- Quotes around attribute value aren't necessary as long as it doesn't contain spaces. You can use `<script src=//14.rs>` instead of `<script src="//14.rs">`
 - The shortest HTML context XSS payload is `<script src=//14.rs>` (19 chars)
 
 ### Awesome Credits
