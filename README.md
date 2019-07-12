@@ -185,7 +185,7 @@ Case: `<tag attribute="$input">`
 "><svg onload=alert()><b attr="
 " onmouseover=alert() "
 "onmouseover=alert()//
-"autocous/onfocus="alert()
+"autofocus/onfocus="alert()
 ```
 #### JavaScript Context
 
