@@ -1,4 +1,4 @@
-found a typo issue file
+
 s0md3v/AwesomeXSS
 # AwesomeXSS
 This repository is a collection of Awesome XSS resources. Contributions are welcome and should be submitted via an issue.
