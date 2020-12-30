@@ -2,7 +2,7 @@
 This repository is a collection of Awesome XSS resources. Contributions are welcome and should be submitted via an issue.
 
 ### Donations
-You can encourage me to create more such amazing programs buy donating a few bucks.
+You can encourage me to create more such amazing programs by donating a few bucks.
 
 - Paypal - [https://paypal.me/s0md3v](https://paypal.me/s0md3v) or `somdevika@gmail.com`
 - Credit/Debit Card - [https://www.buymeacoffee.com/s0md3v](https://www.buymeacoffee.com/s0md3v)
