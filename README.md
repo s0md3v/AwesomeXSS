@@ -1,5 +1,15 @@
+
+s0md3v/AwesomeXSS
 # AwesomeXSS
 This repository is a collection of Awesome XSS resources. Contributions are welcome and should be submitted via an issue.
+
+### Donations
+You can encourage me to create more such amazing programs by donating a few bucks.
+
+- Paypal - [https://paypal.me/s0md3v](https://paypal.me/s0md3v) or `somdevika@gmail.com`
+- Credit/Debit Card - [https://www.buymeacoffee.com/s0md3v](https://www.buymeacoffee.com/s0md3v)
+
+Do you want to sponsor the project and get mentioned here? Email me `s0md3v[at]gmail[dot]com`
 
 ### Awesome contents
 - [Challenges](https://github.com/s0md3v/AwesomeXSS#awesome-challenges)
@@ -242,11 +252,11 @@ If the quotes are not being filtered, you can simply try payloads from **Awesome
 ```
 variable = 'value' or variable = "value"
 ```
-Now lets say single quotes (') are in use, in that case enter `x'd3v`. If it gets altered to `x\\'d3v`, try escaping the backslash (\) by adding a backslash to your probe i.e. `x\\'d3v`. If it works use the following payload:
+Now lets say single quotes (') are in use, in that case enter `x'd3v`. If it gets altered to `x\'d3v`, try escaping the backslash (\) by adding a backslash to your probe i.e. `x\'d3v`. If it works use the following payload:
 ```
 \'-alert()//
 ```
-But if it gets altered to `x\\\\'d3v`, the only thing you can try is closing the script tag itself by using
+But if it gets altered to `x\\\'d3v`, the only thing you can try is closing the script tag itself by using
 ```
 </script><svg onload=alert()>
 ```
