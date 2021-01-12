@@ -242,11 +242,11 @@ If the quotes are not being filtered, you can simply try payloads from **Awesome
 ```
 variable = 'value' or variable = "value"
 ```
-Now lets say single quotes (') are in use, in that case enter `x'd3v`. If it gets altered to `x\\'d3v`, try escaping the backslash (\) by adding a backslash to your probe i.e. `x\\'d3v`. If it works use the following payload:
+Now lets say single quotes (') are in use, in that case enter `x'd3v`. If it gets altered to `x\'d3v`, try escaping the backslash (\) by adding a backslash to your probe i.e. `x\'d3v`. If it works use the following payload:
 ```
 \'-alert()//
 ```
-But if it gets altered to `x\\\\'d3v`, the only thing you can try is closing the script tag itself by using
+But if it gets altered to `x\\\'d3v`, the only thing you can try is closing the script tag itself by using
 ```
 </script><svg onload=alert()>
 ```
