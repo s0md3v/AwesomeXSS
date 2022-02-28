@@ -322,7 +322,7 @@ If the your dummy tags lands in the source code as it is, go for any of these pa
 |`&num;`|#|`&#35;`|number sign|u+0023|\0023|\43|%23|
 |`&dollar;`|$|`&#36;`|dollar sign|u+0024|\0024|\44|%24|
 |`&percnt;`|%|`&#37;`|percent sign|u+0025|\0025|\45|%25|
-|`&amp;`|`&|`&#38;`|ampersand|u+0026|\0026|\46|%26|
+|`&amp;`|&|`&#38;`|ampersand|u+0026|\0026|\46|%26|
 |`&apos;`|'|`&#39;`|apostrophe|u+0027|\0027|\47|%27|
 |`&lpar;`|(|`&#40;`|left parenthesis|u+0028|\0028|\50|%28|
 |`&rpar;`|)|`&#41;`|right parenthesis|u+0029|\0029|\51|%29|
@@ -340,7 +340,7 @@ If the your dummy tags lands in the source code as it is, go for any of these pa
 |`&quest;`|?|`&#63;`|question mark|u+003F|\003f|\77|%3F|
 |`&commat;`|@|`&#64;`|at sign; commercial at|u+0040|\0040|\100|%40|
 |`&lsqb;`|\[|`&#91;`|left square bracket|u+005B|\005b|\133|%5B|
-|`&bsol;`|/|`&#92;`|backslash|u+005C|\005c|\134|%5C|
+|`&bsol;`|&bsol;|`&#92;`|backslash|u+005C|\005c|\134|%5C|
 |`&rsqb;`|]|`&#93;`|right square bracket|u+005D|\005d|\135|%5D|
 |`&Hat;`|^|`&#94;`|circumflex accent|u+005E|\005e|\136|%5E|
 |`&lowbar;`|_|`&#95;`|low line|u+005F|\005f|\137|%5F|
