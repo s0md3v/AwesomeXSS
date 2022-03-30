@@ -333,7 +333,7 @@ If the your dummy tags lands in the source code as it is, go for any of these pa
 |`&period;`|.|`&#46;`|full stop; period|u+002E|\002e|\56|%2E|
 |`&sol;`|/|`&#47;`|solidus; slash|u+002F|\002f|\57|%2F|
 |`&colon;`|:|`&#58;`|colon|u+003A|\003a|\72|%3A|
-|`&semi;`|;`|`&#59;`|semicolon|u+003B|\003b|\73|%3B|
+|`&semi;`|;|`&#59;`|semicolon|u+003B|\003b|\73|%3B|
 |`&lt;`|<|`&#60;`|less-than|u+003C|\003c|\74|%3C|
 |`&equals;`|=|`&#61;`|equals|u+003D|\003d|\75|%3D|
 |`&gt;`|>|`&#62;`|greater-than sign|u+003E|\003e|\76|%3E|
