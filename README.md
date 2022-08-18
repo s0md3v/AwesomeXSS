@@ -32,7 +32,7 @@ This repository is a collection of Awesome XSS resources. Contributions are welc
 - [root-me.org](https://www.root-me.org/?page=recherche&lang=en&recherche=xss)
 - [chefsecure.com](https://chefsecure.com/courses/xss/challenges)
 - [wechall.net](https://www.wechall.net/challs/XSS)
-- [codelatte.net/xss](https://codelatte.net/xss/)
+- [codelatte.id/labs/xss](https://codelatte.id/labs/xss)
 
 ### Awesome Reads & Presentations
 - [Bypassing XSS Detection Mechanisms](https://github.com/s0md3v/MyPapers/tree/master/Bypassing-XSS-detection-mechanisms)
