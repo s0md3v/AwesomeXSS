@@ -24,11 +24,9 @@ This repository is a collection of Awesome XSS resources. Contributions are welc
 ### Awesome Challenges
 - [prompt.ml](https://prompt.ml)
 - [alf.nu/alert1](https://alf.nu/alert1)
-- [s-p-o-o-k-y.com](https://www.s-p-o-o-k-y.com)
 - [xss-game.appspot.com](https://xss-game.appspot.com)
 - [polyglot.innerht.ml](https://polyglot.innerht.ml)
 - [sudo.co.il/xss](http://sudo.co.il/xss)
-- [hack.me/t/XSS](https://hack.me/t/XSS)
 - [root-me.org](https://www.root-me.org/?page=recherche&lang=en&recherche=xss)
 - [chefsecure.com](https://chefsecure.com/courses/xss/challenges)
 - [wechall.net](https://www.wechall.net/challs/XSS)
@@ -36,7 +34,6 @@ This repository is a collection of Awesome XSS resources. Contributions are welc
 
 ### Awesome Reads & Presentations
 - [Bypassing XSS Detection Mechanisms](https://github.com/s0md3v/MyPapers/tree/master/Bypassing-XSS-detection-mechanisms)
-- [XSS in Sarahah](http://www.shawarkhan.com/2017/08/sarahah-xss-exploitation-tool.html)
 - [XSS in Facebook via PNG Content Type](https://whitton.io/articles/xss-on-facebook-via-png-content-types/)
 - [How I met your girlfriend](https://www.youtube.com/watch?v=fWk_rMQiDGc)
 - [How to Find 1,352 Wordpress XSS Plugin Vulnerabilities in one hour](https://www.youtube.com/watch?v=9ADubsByGos)
@@ -45,7 +42,6 @@ This repository is a collection of Awesome XSS resources. Contributions are welc
 
 ### Awesome Tools
 - [XSStrike](https://github.com/UltimateHackers/XSStrike)
-- [xsshunter.com](https://xsshunter.com)
 - [BeEF](https://github.com/beefproject/beef)
 - [JShell](https://github.com/UltimateHackers/JShell)
 
